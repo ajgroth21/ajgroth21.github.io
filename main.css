@@ -2,3 +2,12 @@ h1 {
     color: red;
     margin-left: 20px;
 }
+h1 {
+    font-size: 50px;
+    font-family: "Times New Roman", Times, serif;
+}
+ul {
+    font-size: 30px;
+    color: blue;
+    font-family: "Arial", Verdana, sans-serif;
+}
