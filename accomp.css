@@ -17,10 +17,10 @@ body {
 }
 .navbar1 a {
     float: left; 
-    display: block; 
+    display: flex; 
     color: white; 
     text-align: center;
-    padding: 14px 20px; 
+    padding: 14px; 
     text-decoration: none; 
 }
 .navbar1 a.right {
