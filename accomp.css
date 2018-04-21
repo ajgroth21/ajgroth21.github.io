@@ -18,7 +18,7 @@ body {
 .navbar1 a {
     float: left; 
     display: flex; 
-    color: orange; 
+    color: blue; 
     text-align: center;
     padding: 14px; 
     text-decoration: none; 
