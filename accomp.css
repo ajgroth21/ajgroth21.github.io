@@ -5,7 +5,7 @@ body {
     padding: 80px;
     text-align: center; 
     background: #1abc9c; 
-    color: white; 
+    color: black; 
 }
 
 .header1 h1 {
@@ -18,7 +18,7 @@ body {
 .navbar1 a {
     float: left; 
     display: flex; 
-    color: white; 
+    color: orange; 
     text-align: center;
     padding: 14px; 
     text-decoration: none; 
