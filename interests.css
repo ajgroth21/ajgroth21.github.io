@@ -14,12 +14,12 @@ body {
 }
 .navbar1 {
     overflow: hidden; 
-    background-color: #777; 
+    background-color: #0007f9; 
 }
 .navbar1 a {
     float: left; 
     display: block; 
-    color: red;
+    color: floralwhite;
     text-align: center; 
     padding: 14px 20px; 
     text-decoration: none; 
@@ -28,7 +28,7 @@ body {
     float: right; 
 }
 .navbar1 a:hover {
-    background-color: darkgray; 
+    background-color: #ddd; 
     color: black; 
 }
 .row1 { 
