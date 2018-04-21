@@ -13,12 +13,12 @@ body {
 }
 .navbar1 {
     overflow: hidden; 
-    background-color: #777; 
+    background-color: darkgray; 
 }
 .navbar1 a {
     float: left; 
     display: flex; 
-    color: blue; 
+    color: red; 
     text-align: center;
     padding: 14px; 
     text-decoration: none; 

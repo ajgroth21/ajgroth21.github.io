@@ -19,7 +19,7 @@ body {
 .navbar1 a {
     float: left; 
     display: block; 
-    color: blue;
+    color: red;
     text-align: center; 
     padding: 14px 20px; 
     text-decoration: none; 
@@ -28,7 +28,7 @@ body {
     float: right; 
 }
 .navbar1 a:hover {
-    background-color: #ddd; 
+    background-color: darkgray; 
     color: black; 
 }
 .row1 { 
