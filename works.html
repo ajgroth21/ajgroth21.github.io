@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
    <link rel="stylesheet" type="text/css" href="works.css">
-    <title>Works</title>
+    <title>AJ's Portfolio</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head> 
 <body>
    <div class="header1">
-    <h1>Works</h1>
-    
+    <h1>My Work</h1>
     </div>
     
     <div class="navbar1">
@@ -30,12 +29,47 @@
           <li><a href="https://github.com/ajgroth21/ajgroth21.github.io">GitHub</a></li>
       </ul>
        </div>
+    
+       
       <div class="main1">My favorite song: 
       <audio controls>
           <source src="Generation%20X%20-%20Kiss%20Me%20Deadly.mp3" type="audio/ogg">
       </audio>
       </div>
     </div>
+    <div class="ceaser cipher">
+       <h1>Ceaser Cipher</h1>
+    <input id="in">
+    <button type="button" onclick="myFunction()">Submit</button>
+    <p id="out"></p>
+        <script>
+        function myFunction() {
+            var asciicode, encrypt = "";
+            var index = 0;
+            // Input
+            inVar = document.getElementById("in").value;
+
+            // Processing
+
+            for (i = 0; i < inVar.length; i++) {
+            asciicode = inVar.charCodeAt(index);
+            asciicode = asciicode + 3;
+            encrypt += String.fromCharCode(asciicode);
+            index = index + 1;
+
+            }
+
+
+            //outVar = inVar3 + 3;
+
+            // Output
+            document.getElementById("out").innerHTML = encrypt;
+
+            
+
+        }
+        </script>
+        </div>
     
     <div class="footer1">
       <h2>Andrew Groth's Website, 2018.</h2>
